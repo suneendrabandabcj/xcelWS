@@ -12,5 +12,6 @@
   
   <property name="show_sql">true</property>
   <mapping resource="/hibernate/Customer.hbm.xml" />
+  <mapping resource="/hibernate/ServicePlan.hbm.xml" />
 </session-factory>
 </hibernate-configuration>

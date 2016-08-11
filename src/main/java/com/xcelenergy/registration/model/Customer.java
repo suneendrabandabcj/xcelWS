@@ -1,12 +1,17 @@
 package com.xcelenergy.registration.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-public class Customer {
+public class Customer implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private long customerId;
 	private String firstName;
     private String lastName;

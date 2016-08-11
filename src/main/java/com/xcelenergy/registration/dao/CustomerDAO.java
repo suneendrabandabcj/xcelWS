@@ -9,6 +9,12 @@ import com.xcelenergy.registration.utils.DBSessionManagement;
 
 public class CustomerDAO {
 
+	/**
+	 * Save Customer Details
+	 * @param customer
+	 * @return
+	 * @throws Exception
+	 */
 	public static long saveCustomer(Customer customer) throws Exception {
 		
 		Session session = DBSessionManagement.getSessionFactory().openSession();
@@ -23,8 +29,19 @@ public class CustomerDAO {
 		} catch (Exception e) {
 			throw e;
 		}finally {
-			DBSessionManagement.shutdown();
+			session.close();
 		}
 		return customerId;
 	}
+	
+	/**
+	 * Return customer details and service plan details
+	 * @param customerId
+	 */
+	public static void getCustomerInformationById(long customerId){
+		
+		Session session = DBSessionManagement.getSessionFactory().openSession();
+		
+	}
+	
 }

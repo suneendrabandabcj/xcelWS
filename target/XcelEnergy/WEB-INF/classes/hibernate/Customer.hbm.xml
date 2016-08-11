@@ -3,25 +3,28 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.xcelenergy.registration.model.Customer" table="customer" catalog="customerutility">
-        <id name="customerId" type="java.lang.Long">
-            <column name="customerId" />
-            <generator class="increment" />
-        </id>
-        <property name="firstName" type="string">
-            <column name="firstName"/>
-        </property>
-        <property name="lastName" type="string">
-            <column name="lastName" />
-        </property>
-        <property name="userName" type="string">
-            <column name="userName" />
-        </property>
-        <property name="email" type="string">
-            <column name="email" />
-        </property>
-        <property name="password" type="string">
-            <column name="password" />
-        </property>
-    </class>
+	<class name="com.xcelenergy.registration.model.Customer" table="customer"
+		catalog="customerutility">
+		<id name="customerId" type="java.lang.Long">
+			<column name="customerId" />
+			<generator class="increment" />
+		</id>
+		<property name="firstName" type="string">
+			<column name="firstName" />
+		</property>
+		<property name="lastName" type="string">
+			<column name="lastName" />
+		</property>
+		<property name="userName" type="string">
+			<column name="userName" />
+		</property>
+		<property name="email" type="string">
+			<column name="email" />
+		</property>
+		<property name="password" type="string">
+			<column name="password" />
+		</property>
+		<one-to-one name="servicePlan"
+			class="com.xcelenergy.registration.model.ServicePlan"></one-to-one>
+	</class>
 </hibernate-mapping>

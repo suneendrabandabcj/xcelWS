@@ -1,7 +1,13 @@
 package com.xcelenergy.registration.model;
 
-public class ServicePlan {
+import java.io.Serializable;
 
+public class ServicePlan implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private long planId;
 	private String planDetails;
 	private int cancellationFee;

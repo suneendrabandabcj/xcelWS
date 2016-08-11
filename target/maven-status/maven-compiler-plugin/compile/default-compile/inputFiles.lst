@@ -6,9 +6,11 @@ C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\wsdl\serviceplan\Exception_Exception.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\service\CustomerService.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\wsdl\serviceplan\GetAllServicePlans.java
+C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\tests\CustomerServiceTests.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\model\Customer.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\controller\RegistrationController.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\dao\CustomerDAO.java
+C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\jms\MyMessageSender.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\wsdl\serviceplan\ObjectFactory.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\wsdl\serviceplan\package-info.java
 C:\BCJ_May_16\WebServiceSpringHibernate\XcelEnergy\src\main\java\com\xcelenergy\registration\wsdl\serviceplan\UtilityService.java
